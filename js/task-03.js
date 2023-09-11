@@ -21,7 +21,7 @@ const makeGallery = ({ url, alt }) => {
     </li>
   `;
 };
-
+/////
 const makeGalleryArray = images.map(makeGallery).join("");
 console.log(makeGalleryArray);
 
