@@ -18,7 +18,7 @@ const makeGallery = ({ url, alt }) => {
   return `
     <li>
       <img src=${url} alt=${alt}/>
-    </li>const gallery = document.querySelector('.gallery');
+    </li>
   `;
 };
 
